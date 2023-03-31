@@ -12,7 +12,7 @@
 	<artifactId>docker-jenkins</artifactId>
 	<version>latest</version>
 	<name>docker-jenkins</name>
-	<description>Demo project for Docker &amp; Jenkins</description>
+	<description>Demo project for Docker and Jenkins</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -36,6 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>dockerjenkins</finalName>
 	</build>
 
 </project>
