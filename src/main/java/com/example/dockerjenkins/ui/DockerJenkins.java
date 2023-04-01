@@ -11,6 +11,6 @@ public class DockerJenkins {
 	@GetMapping
 	public String find() {
 
-		return "Docker With Jenkins";
+		return "Docker Jenkins Integration";
 	}
 }
